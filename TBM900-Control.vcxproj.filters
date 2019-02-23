@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="rs232.c" />
+    <ClCompile Include="osc\OscOutboundPacketStream.cpp" />
+    <ClCompile Include="osc\OscPrintReceivedElements.cpp" />
+    <ClCompile Include="osc\OscReceivedElements.cpp" />
+    <ClCompile Include="osc\OscTypes.cpp" />
+    <ClCompile Include="ip\IpEndpointName.cpp" />
+    <ClCompile Include="ip\NetworkingUtils.cpp" />
+    <ClCompile Include="ip\UdpSocket.cpp" />
+    <ClCompile Include="TBM900-Control.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="rs232.h" />
+    <ClInclude Include="osc\MessageMappingOscPacketListener.h" />
+    <ClInclude Include="osc\OscException.h" />
+    <ClInclude Include="osc\OscHostEndianness.h" />
+    <ClInclude Include="osc\OscOutboundPacketStream.h" />
+    <ClInclude Include="osc\OscPacketListener.h" />
+    <ClInclude Include="osc\OscPrintReceivedElements.h" />
+    <ClInclude Include="osc\OscReceivedElements.h" />
+    <ClInclude Include="osc\OscTypes.h" />
+    <ClInclude Include="ip\IpEndpointName.h" />
+    <ClInclude Include="ip\NetworkingUtils.h" />
+    <ClInclude Include="ip\PacketListener.h" />
+    <ClInclude Include="ip\TimerListener.h" />
+    <ClInclude Include="ip\UdpSocket.h" />
+  </ItemGroup>
+</Project>
